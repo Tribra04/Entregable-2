@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    font-family: "Fredoka", sans-serif;
+
+}
+body{
+    background-image: url("./img/backgroud-1.png");
+    background-size: cover;
+}
+
+.MyButton{
+    background-color: #f3e7e5;
+    padding: 15px;
+    border-radius: 50px;
+    color: rgb(167, 6, 67);
+    margin: 10px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.MyButton:hover{
+    background-color: rgb(167, 6, 67) ;
+    color: #f3e7e5;
+    padding: 20px;
+}
+
+p{
+    font-size: 2rem;
+    color: #f3e7e5;
+}
+
+
+.myTittle{
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 4rem;
+    color: rgb(167, 6, 67);
+}
